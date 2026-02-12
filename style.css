@@ -758,7 +758,7 @@ header{
   .menu-toggle {
     display: block;
     color: white;
-    margin-left: 60px;
+    margin-left: 100px;
   }
 
   .header-btn {
@@ -785,7 +785,7 @@ header{
   }
 
   .logo {
-    margin-left: -40px;
+    margin-left: -90px;
   }
 
   .hero {
@@ -994,4 +994,5 @@ header{
   }
 
 }
+
 
