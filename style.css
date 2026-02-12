@@ -783,10 +783,15 @@ header{
     display: flex;
   }
 
+  .logo {
+    margin-left: -8px;
+  }
+
   .hero {
     grid-template-columns: 1fr;
     padding-top: 120px;
     min-height: auto;
+    justify-content: center;
   }
 
   .hero-text {
@@ -986,4 +991,5 @@ header{
   .btn-contact {
     padding: 14px;
   }
+
 }
