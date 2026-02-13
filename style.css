@@ -822,7 +822,7 @@ header{
     position: static;   /* REMOVE absolute */
     margin: 20px auto 0;
     width: 100%;
-    max-width: 500px;
+    max-width: 600px;
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -994,6 +994,7 @@ header{
   }
 
 }
+
 
 
 
