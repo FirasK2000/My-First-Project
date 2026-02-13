@@ -825,6 +825,13 @@ header{
     max-width: 600px;
     flex-wrap: wrap;
     justify-content: center;
+    display: flex;
+    gap: 14px;
+  }
+
+  .form-container button {
+    width: 100%;
+    margin-top: 10px;
   }
 
   @keyframes fadeLeft {
@@ -994,6 +1001,7 @@ header{
   }
 
 }
+
 
 
 
