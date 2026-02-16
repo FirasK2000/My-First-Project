@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-image: url('Airplane-L.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.create-account-container {
+  position: relative;
+  width: 800px;
+  height: 500px;
+  background:  rgba(236, 236, 236, 0.8);
+  border-radius: 30px;
+} 
+
+.form-box-Login {
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: black;
+  text-align: center;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+}
+
+form {
+  width: 100%;
+}
+
+.create-account-container h1 {
+  font-size: 36px;
+  margin: -10px 0;
+}
+
+.input-group {
+  position: relative;
+  margin: 18px 0;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 13px 50px 13px 20px;
+  border-radius: 19px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: black;
+  font-weight: 400;
+  /* background: rgba(236, 236, 236, 0.8); */
+}
+
+.input-group input::placeholder {
+  color: #888;
+  font-weight: 400;
+}
+
+.input-group i {
+  position: absolute;
+  top: 50%;
+  right: 28px;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #888;
+}
+
+.forgot-link {
+  margin: -10px 0 14px;
+}
+
+.forgot-link a {
+  color: #888;
+  text-decoration: none;
+  font-size: 14.4px;
+}
+
+.btn {
+  width: 100%;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  background-color: #82b9f3;
+}
+
+.create-account-container p {
+  font-size: 14.4px;
+  margin: 14px 0;
+}
+
+.social-icons a {
+  display: inline-flex;
+  padding: 10px;
+  border: 2px solid #888;
+  border-radius: 8px;
+  font-size: 24px;
+  color: #888;
+  text-decoration: none;
+  margin: 0 8px;
+}
