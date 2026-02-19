@@ -238,17 +238,25 @@ header{
   border-radius: 20px;
 }
 
-.form-container form{
+.form-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.form-container form {
   display: flex;
   align-items: center;
   gap: 1rem;
   position: absolute;
-  bottom: 4.9rem;
-  left: 1px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 4.5rem;
   background: white;
   padding: 20px;
-  border-radius: 0.5rem;
-  animation: fadeUp 1s ease forwards;
+  border-radius: 12px;
+  width: calc(100% - 200px);
+  max-width: 1000px;
 }
 
 .input-box {
@@ -838,12 +846,23 @@ header{
   }
 
   /* 🔥 FORM FIX (MOST IMPORTANT) */
+   .form-container {
+    position: relative;
+    margin-top: 20px;
+    padding: 0 16px;
+  }
+
   .form-container form {
-    position: static;   /* REMOVE absolute */
-    margin: 20px auto 0;
+    position: static;
+    transform: none;
     width: 100%;
-    max-width: 600px;
-    flex-wrap: wrap;
+    max-width: 100%;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .form-container form .btn {
+    width: 100%;
   }
 
   @keyframes fadeLeft {
