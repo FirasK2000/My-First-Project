@@ -268,16 +268,13 @@ header{
   background: #eeefee;
   border-radius: 0.5rem;
   font-size: 1rem;
-  width: 100%;
-  box-sizing: border-box;
 }
 
 .form-container form .btn{
-  width: 100%;
-  padding: 14px;
-  height: auto;
+  flex: 1 1 7rem;
+  padding: 10px 34px;
   border: none;
-  border-radius: 0.7rem;
+  border-radius: 0.5rem;
   background: black;
   color: white;
   font-size: 1rem;
@@ -840,36 +837,14 @@ header{
     max-width: 100%;
   }
 
-  .form-container {
-    position: relative;
-    padding: 0 16px;
-    margin-top: 20px;
-  }
-
   .form-container form {
-    position: static;   /* remove absolute */
-    flex-direction: column;   /* STACK vertically */
-    align-items: stretch;  /* full width */
-    width: 100%;
-    max-width: 100%;
-    margin: 20px auto 0; /* center with margin */
-    gap: 1.2rem;
-  }
-
-  .input-box {
-    width: 100%;
-  }
-
-  .input-box span {
-    font-size: 0.95rem;
-    margin: 6px;
+    flex-direction: column;
+    position: static;
+    padding: 20px 16px;
+    gap: 12px;
   }
 
   .input-box input {
-    width: 100%;
-  }
-
-  .form-container form .btn {
     width: 100%;
   }
 
