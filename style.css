@@ -268,13 +268,16 @@ header{
   background: #eeefee;
   border-radius: 0.5rem;
   font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .form-container form .btn{
-  flex: 1 1 7rem;
-  padding: 10px 34px;
+  width: 100%;
+  padding: 14px;
+  height: auto;
   border: none;
-  border-radius: 0.5rem;
+  border-radius: 0.7rem;
   background: black;
   color: white;
   font-size: 1rem;
@@ -849,10 +852,17 @@ header{
     align-items: stretch;  /* full width */
     width: 100%;
     max-width: 100%;
+    margin: 20px auto 0; /* center with margin */
+    gap: 1.2rem;
   }
 
   .input-box {
     width: 100%;
+  }
+
+  .input-box span {
+    font-size: 0.95rem;
+    margin: 6px;
   }
 
   .input-box input {
